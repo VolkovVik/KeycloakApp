@@ -1,0 +1,12 @@
+bin
+obj
+*.sln.DotSettings.user
+*.csproj.user
+.vs
+.log
+.containers
+packages
+*.bak
+.config
+.idea/
+*.Development.json

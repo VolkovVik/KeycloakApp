@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{715D2AFA-D019-485A-B8AE-612608C1F02B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{41A3B5AD-C893-4824-82C7-3905C8825DF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5F7DB29C-8041-4C90-A443-624B8B37843D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C47D72CF-8DEA-4B7F-A6B8-CFF3D000D513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakApp.Api", "source\KeycloakApp.Api\KeycloakApp.Api.csproj", "{159E4FA7-4222-4DA1-A6BC-FB90C07DF27C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakApp.Base", "source\KeycloakApp.Base\KeycloakApp.Base.csproj", "{B8F92906-D7F3-40F7-BBF0-90EC0041D3D5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4B9F49EF-078B-40A3-92DA-BC7C6E3B513E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakApp.Proxy", "source\KeycloakApp.Proxy\KeycloakApp.Proxy.csproj", "{035E6A7F-6F7C-48E1-AE0B-D32CF0E69F19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{159E4FA7-4222-4DA1-A6BC-FB90C07DF27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159E4FA7-4222-4DA1-A6BC-FB90C07DF27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159E4FA7-4222-4DA1-A6BC-FB90C07DF27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159E4FA7-4222-4DA1-A6BC-FB90C07DF27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F92906-D7F3-40F7-BBF0-90EC0041D3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F92906-D7F3-40F7-BBF0-90EC0041D3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F92906-D7F3-40F7-BBF0-90EC0041D3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F92906-D7F3-40F7-BBF0-90EC0041D3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9F49EF-078B-40A3-92DA-BC7C6E3B513E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9F49EF-078B-40A3-92DA-BC7C6E3B513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9F49EF-078B-40A3-92DA-BC7C6E3B513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9F49EF-078B-40A3-92DA-BC7C6E3B513E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035E6A7F-6F7C-48E1-AE0B-D32CF0E69F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035E6A7F-6F7C-48E1-AE0B-D32CF0E69F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035E6A7F-6F7C-48E1-AE0B-D32CF0E69F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035E6A7F-6F7C-48E1-AE0B-D32CF0E69F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{159E4FA7-4222-4DA1-A6BC-FB90C07DF27C} = {41A3B5AD-C893-4824-82C7-3905C8825DF5}
+		{B8F92906-D7F3-40F7-BBF0-90EC0041D3D5} = {41A3B5AD-C893-4824-82C7-3905C8825DF5}
+		{035E6A7F-6F7C-48E1-AE0B-D32CF0E69F19} = {41A3B5AD-C893-4824-82C7-3905C8825DF5}
+	EndGlobalSection
+EndGlobal

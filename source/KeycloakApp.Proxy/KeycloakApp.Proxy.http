@@ -1,0 +1,6 @@
+@KeycloakApp.Proxy_HostAddress = http://localhost:5164
+
+GET {{KeycloakApp.Proxy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
